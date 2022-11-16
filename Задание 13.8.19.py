@@ -1,5 +1,5 @@
 ticket = int(input('Введите количество билетов, которые хотите приобрести: '))
-cost = 0.0
+cost = 0
 for i in range(ticket):
     age = int(input('Введите возраст посетителя конференции: '))
     if age < 18:
