@@ -4,7 +4,7 @@ for i in range(ticket):
     age = int(input('Введите возраст посетителя конференции: '))
     if age < 18:
         cost = cost + 0
-    elif 25 <= age <= 18:
+    elif 18 <= age < 25:
         cost = cost + 990
     else:
         cost = cost + 1390
